@@ -6,13 +6,6 @@ const app = document.querySelector('#app');
 
 body.style.width = '50vw';
 
-// body.addEventListener('mouseover', function() {
-//     console.log('X');
-//     // const div = document.createElement('div');
-//     // div.textContent = 'X';
-//     // div.style.backgroundColor = 'red';
-//     // body.appendChild(div);
-//   });
 two.addEventListener('click', function() {
     for (let i = 0; i < 4; i++) {
         const div = document.createElement('div');
